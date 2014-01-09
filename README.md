@@ -1,10 +1,6 @@
 BIFF
 ===
 
-The repository is generated with cordova-cli using this command
-
-    cordova create BIFF com.biffchallenge.BIFF BIFF
-
 Set up your environment
 -----------------------
 ##### Install Xcode 5.x
@@ -41,7 +37,7 @@ This is opened by either double clikcing it or opening it from Xcodes *File -> O
 Building
 --------
 
-    cd /<projects>/BIFF/src
+    cd /<clonefolder>/BIFF/src
     sencha app build testing
     
 This will build the Sencha Touch app AND copy the builded files down to the cordova app *platforms/ios/www* 
@@ -53,7 +49,7 @@ Debugging
 For general sencha code not involving cordova API the best way to debug is by opening the sencha touch app in Chrome. 
 Do this by starting a local web server:
 
-     sencha fs web start -m /projects/BIFF/src
+     sencha fs web start -m /<projectfolder>/BIFF/src
      
 And the visit http://localhost:1841
 
