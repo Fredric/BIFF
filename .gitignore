@@ -1,6 +1,11 @@
 # Xcode
 .DS_Store
 build/
+www/app.js
+www/index.html
+bootstrap.js
+bootstrap.json
+www/resources/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
