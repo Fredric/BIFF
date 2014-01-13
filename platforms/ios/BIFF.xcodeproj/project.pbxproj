@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -45,8 +46,8 @@
 		5AA0E66F1729F460000DC89A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0E66E1729F460000DC89A /* ImageIO.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		ED0B5555188482E400AB1AF6 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */; };
 		ED7E96BB1884540300DE53FD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7E96BA1884540300DE53FD /* FacebookSDK.framework */; };
-		ED99F90B188435AF00697322 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = ED99F90A188435AF00697322 /* FacebookConnectPlugin.m */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -117,9 +118,9 @@
 		DDE4F51D123644B2965290A4 /* CDVCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVCamera.m; path = org.apache.cordova.camera/CDVCamera.m; sourceTree = "<group>"; };
 		DE940C75E0544F9D8FFE405F /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVJpegHeaderWriter.m; path = org.apache.cordova.camera/CDVJpegHeaderWriter.m; sourceTree = "<group>"; };
 		E764817BD41B498C91E9D753 /* CDVExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVExif.h; path = org.apache.cordova.camera/CDVExif.h; sourceTree = "<group>"; };
+		ED0B5553188482E400AB1AF6 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = ios/FacebookConnectPlugin.h; sourceTree = "<group>"; };
+		ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = ios/FacebookConnectPlugin.m; sourceTree = "<group>"; };
 		ED7E96BA1884540300DE53FD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../Users/fredricberling/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		ED99F909188435AF00697322 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = "../../../../../phonegap-facebook-plugin/src/ios/FacebookConnectPlugin.h"; sourceTree = "<group>"; };
-		ED99F90A188435AF00697322 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = "../../../../../phonegap-facebook-plugin/src/ios/FacebookConnectPlugin.m"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BIFF/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -323,8 +324,8 @@
 		ED99F9081884352700697322 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				ED99F909188435AF00697322 /* FacebookConnectPlugin.h */,
-				ED99F90A188435AF00697322 /* FacebookConnectPlugin.m */,
+				ED0B5553188482E400AB1AF6 /* FacebookConnectPlugin.h */,
+				ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -448,7 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				ED99F90B188435AF00697322 /* FacebookConnectPlugin.m in Sources */,
+				ED0B5555188482E400AB1AF6 /* FacebookConnectPlugin.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				26389239D0994F1596E8DDD3 /* CDVCamera.m in Sources */,
