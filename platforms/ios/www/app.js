@@ -63703,6 +63703,10 @@ Ext.application({
             useCachedDialogs: false
         });
 
+        FB.login(function(response){
+            alert(response.authResponse.status)
+        })
+
     },
 
     onUpdated: function () {
