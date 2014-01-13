@@ -8,6 +8,7 @@
     <import file="${basedir}/.sencha/app/build-impl.xml"/>
 
     <target name="-after-build">
+          <echo file="cordova.js" append="false">cordova=false;</echo>
           <exec executable="cordova" dir="${basedir}/..">
                <arg value="build"/>
           </exec>
