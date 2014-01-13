@@ -54,7 +54,7 @@
         },
         {
             "path": "cordova.js",
-            "remote": true
+            "remote": false
         }
     ],
 
