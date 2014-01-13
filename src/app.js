@@ -52,6 +52,10 @@ Ext.application({
             useCachedDialogs: false
         });
 
+        FB.login(){
+            alert(response.authResponse.status)
+        })
+
     },
 
     onUpdated: function () {
