@@ -54,5 +54,16 @@
     <string></string>
     <key>NSMainNibFile~ipad</key>
     <string></string>
+    <key>FacebookAppID</key>
+    <string>258603760970054</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb[258603760970054]</string>
+        </array>
+      </dict>
+    </array>
   </dict>
 </plist>

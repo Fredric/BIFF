@@ -55,7 +55,16 @@
         {
             "path": "cordova.js",
             "remote": false
+        },{
+            "path": "resources/plugins/facebook-js-sdk.js",
+            "remote": false
+        },{
+            "path": "resources/plugins/cdv-plugin-fb-connect.js",
+            "remote": false
         }
+
+
+
     ],
 
     /**
