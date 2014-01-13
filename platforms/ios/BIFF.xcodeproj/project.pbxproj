@@ -47,7 +47,7 @@
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		ED0B5555188482E400AB1AF6 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */; };
-		ED7E96BB1884540300DE53FD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7E96BA1884540300DE53FD /* FacebookSDK.framework */; };
+		ED0B5557188484D900AB1AF6 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0B5556188484D900AB1AF6 /* FacebookSDK.framework */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +120,7 @@
 		E764817BD41B498C91E9D753 /* CDVExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVExif.h; path = org.apache.cordova.camera/CDVExif.h; sourceTree = "<group>"; };
 		ED0B5553188482E400AB1AF6 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = ios/FacebookConnectPlugin.h; sourceTree = "<group>"; };
 		ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = ios/FacebookConnectPlugin.m; sourceTree = "<group>"; };
+		ED0B5556188484D900AB1AF6 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../SDK/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		ED7E96BA1884540300DE53FD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../Users/fredricberling/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BIFF/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED7E96BB1884540300DE53FD /* FacebookSDK.framework in Frameworks */,
+				ED0B5557188484D900AB1AF6 /* FacebookSDK.framework in Frameworks */,
 				301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */,
 				5AA0E66F1729F460000DC89A /* ImageIO.framework in Frameworks */,
 				5AA0E66D1729F45B000DC89A /* OpenAL.framework in Frameworks */,
@@ -235,6 +236,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED0B5556188484D900AB1AF6 /* FacebookSDK.framework */,
 				ED7E96BA1884540300DE53FD /* FacebookSDK.framework */,
 				5AEE5B34173C68D80009041E /* CoreLocation.framework */,
 				5AA0E66E1729F460000DC89A /* ImageIO.framework */,
@@ -512,6 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/fredricberling/Documents/FacebookSDK,
+					/DecidoDev/root/BIFF/SDK/FacebookSDK,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -549,6 +552,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/fredricberling/Documents/FacebookSDK,
+					/DecidoDev/root/BIFF/SDK/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BIFF/BIFF-Prefix.pch";
