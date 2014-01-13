@@ -121,7 +121,6 @@
 		ED0B5553188482E400AB1AF6 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = ios/FacebookConnectPlugin.h; sourceTree = "<group>"; };
 		ED0B5554188482E400AB1AF6 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = ios/FacebookConnectPlugin.m; sourceTree = "<group>"; };
 		ED0B5556188484D900AB1AF6 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../SDK/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		ED7E96BA1884540300DE53FD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../Users/fredricberling/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = BIFF/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				ED0B5556188484D900AB1AF6 /* FacebookSDK.framework */,
-				ED7E96BA1884540300DE53FD /* FacebookSDK.framework */,
 				5AEE5B34173C68D80009041E /* CoreLocation.framework */,
 				5AA0E66E1729F460000DC89A /* ImageIO.framework */,
 				5AA0E66C1729F45B000DC89A /* OpenAL.framework */,
